@@ -25,3 +25,6 @@ def transpose(m):
 blah = transpose(matrix)
 
 print(blah)
+
+assert(transpose([]) == [])
+assert(transpose([[1]]) == [[1]])
